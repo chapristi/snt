@@ -9,9 +9,8 @@ while counter <= 20 :
   inpx = "inp"  + str(counter)
   dc[inpx]  = inp
   counter += 1 
-
+  
 liste = sorted(dc.values(),reverse=False) 
-
 listeinv = sorted(dc.values(),reverse=True)
 
 res = {
